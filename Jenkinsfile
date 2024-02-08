@@ -23,7 +23,7 @@ pipeline {
                 gitCheckout(
 			
                     branch: "main",
-		  url: "https://github.com/yreddys/Hjen.git"
+		  url: https://github.com/yreddys/Hk8s.git
                     
                 )
             }
