@@ -22,9 +22,10 @@ pipeline {
             }
             steps {
                 gitCheckout(
-                    branch: "main",
-                    url: "https://github.com/yreddys/Hk8s.git"
-                )
+    branch: "main",
+    url: "https://github.com/yreddys/Hk8s.git"
+)
+
             }
         }
         stage('BuildMaven') {
